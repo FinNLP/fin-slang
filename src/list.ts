@@ -1,0 +1,242 @@
+export const rules = [
+	{
+		regex:/\b(nah|nope)\b/gi,
+		replacement:"no,"
+	},
+	{
+		regex:/\b(ye|yeah|yep|yah|aye|yea)\b/gi,
+		replacement:"yes,"
+	},
+	{
+		regex:/^ya$/gi,
+		replacement:"yes"
+	},
+	{
+		regex:/\b(srlsy)\b/gi,
+		replacement:"seriously"
+	},
+	{
+		regex:/\b(y)\b/gi,
+		replacement:"why"
+	},
+	{
+		regex:/\b(k|okay|o\.k\.|oki|okey-dokey|okey-doke)\b/gi,
+		replacement:"ok"
+	},
+	{
+		regex:/\b(alrighty)\b/gi,
+		replacement:"alright"
+	},
+	{
+		regex:/\b('em)\b/gi,
+		replacement:"them"
+	},
+	{
+		regex:/\b(u|ya|yah)\b/gi,
+		replacement:"you"
+	},
+	{
+		regex:/^(yo)$/gi,
+		replacement:"you"
+	},
+	{
+		regex:/\b(yo)\b/gi,
+		replacement:"your"
+	},
+	{
+		regex:/\b(cuz|b\/c)\b/gi,
+		replacement:"because"
+	},
+	{
+		regex:/\b(pls|plz|pwez)\b/gi,
+		replacement:"please,"
+	},
+	{
+		regex:/\b(pw(e)+z)\b/gi,
+		replacement:"please,"
+	},
+	{
+		regex:/\b(dis)\b/gi,
+		replacement:"this"
+	},
+	{
+		regex:/\b(2moro|2mro|2mr)\b/gi,
+		replacement:"tomorrow"
+	},
+	{
+		regex:/\b(2nt|2nite|tnite)\b/gi,
+		replacement:"tonight"
+	},
+	{
+		regex:/\b(gr8)\b/gi,
+		replacement:"great"
+	},
+	{
+		regex:/\b(l8r|l8tr)\b/gi,
+		replacement:"later"
+	},
+	{
+		regex:/\b(tnx|thks|tx|tnx|tanx|thanks|thanx)\b/gi,
+		replacement:"thank you"
+	},
+	{
+		regex:/\b(r|'re)\b/gi,
+		replacement:"are"
+	},
+	{
+		regex:/\b('m)\b/gi,
+		replacement:"am"
+	},
+	{
+		regex:/\b(hi|hey)\b/gi,
+		replacement:"hello"
+	},
+	{
+		regex:/\b(<3)\b/gi,
+		replacement:"love"
+	},
+	{
+		regex:/\b(bae)\b/gi,
+		replacement:"babe"
+	},
+	{
+		regex:/\b(dafuq)\b/gi,
+		replacement:"what the fuck"
+	},
+	{
+		regex:/\b(dm)\b/gi,
+		replacement:"direct message"
+	},
+	{
+		regex:/\b(eli5)\b/gi,
+		replacement:"explain like I am 5 years old"
+	},
+	{
+		regex:/\b(fml)\b/gi,
+		replacement:"fuck my life"
+	},
+	{
+		regex:/\b(facepalm|smh)\b/gi,
+		replacement:"ugh"
+	},
+	{
+		regex:/\b(imo|imho)\b/gi,
+		replacement:"in my opinion"
+	},
+	{
+		regex:/\b(irl)\b/gi,
+		replacement:"in real life"
+	},
+	{
+		regex:/\b(jsyk)\b/gi,
+		replacement:"just so you know"
+	},
+	{
+		regex:/\b(lol|lolz|lulz|lmao|lmfao|rofl|roflmao|roflol)\b/gi,
+		replacement:"haha"
+	},
+	{
+		regex:/\b(haha)+\b/gi,
+		replacement:"haha"
+	},
+	{
+		regex:/\b(hehe)+\b/gi,
+		replacement:"haha"
+	},
+	{
+		regex:/\bl(o|u)+l(z|s)?\b/gi,
+		replacement:"haha"
+	},
+	{
+		regex:/\b(nsfw)\b/gi,
+		replacement:"not safe for work"
+	},
+	{
+		regex:/\b(tl:?dr;?)\b/gi,
+		replacement:"it's too long, I didn't read it"
+	},
+	{
+		regex:/\b(yo+lo+)\b/gi,
+		replacement:"You only live once"
+	},
+	{
+		regex:/\b(idk)\b/gi,
+		replacement:"I don't know"
+	},
+	{
+		regex:/\b(tbh)\b/gi,
+		replacement:"to be honest"
+	},
+	{
+		regex:/\b(milf)\b/gi,
+		replacement:"mother I like to fuck"
+	},
+	{
+		regex:/\b(filf)\b/gi,
+		replacement:"father I like to fuck"
+	},
+	{
+		regex:/\b(dilf)\b/gi,
+		replacement:"dad I like to fuck"
+	},
+	{
+		regex:/\b(g4(bi)?d)\b/gi,
+		replacement:"god forbid"
+	},
+	{
+		regex:/\b(ikr?)\b/gi,
+		replacement:"right"
+	},
+	{
+		regex:/\b(sup( (sun|son|sis))?)\b/gi,
+		replacement:"how are you"
+	},
+	{
+		regex:/\b(sh\*t|shi+t|sh!t)e?\b/gi,
+		replacement:"shit"
+	},
+	{
+		regex:/\bf(\*\*|@c|u|u+c|\*c|u\*)k/gi,
+		replacement:"fuck"
+	},
+	{
+		regex:/\b(jk|j\/k)\b/gi,
+		replacement:"just kidding"
+	},
+	{
+		regex:/\b(w\/o|w\/t)\b/gi,
+		replacement:"without"
+	},
+	{
+		regex:/\b(w\/)\b/gi,
+		replacement:"with"
+	},
+	{
+		regex:/\b(outta)\b/gi,
+		replacement:"out of"
+	},
+	{
+		regex:/\b(shd)\b/gi,
+		replacement:"should"
+	},
+	{
+		regex:/\b(c)\b/gi,
+		replacement:"see"
+	},
+	{
+		regex:/!(!)+/gi,
+		replacement:"!"
+	},
+	{
+		regex:/\?(\?)+/gi,
+		replacement:"?"
+	},
+	{
+		regex:/,(,)+/gi,
+		replacement:","
+	},
+	{
+		regex:/\.(\.)+/gi,
+		replacement:"."
+	},
+];

@@ -1,14 +1,11 @@
 {
   "name": "fin-slang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms common internet slangs into a more formal words.",
-  "main": "index.js",
-  "dependencies": {
+  "main": "./dist/index.js",
+  "types":"./dist/index.d.ts",
+  "devDependencies": {
     "finnlp": "^1.0.6"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "mocha test"
   },
   "repository": {
     "type": "git",

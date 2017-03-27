@@ -17,10 +17,10 @@ npm i --save fin-slang
 
 ## Usage
 
-```javascript
-const fin = require('finnlp');
-fin.extend(require('fin-slang'));
+It'll work just by importing it.
 
+```javascript
+import * as Fin from "finnlp";
+import "fin-slangs";
 // now when you instantiate a new input, slangs will be transformed
 ```
-

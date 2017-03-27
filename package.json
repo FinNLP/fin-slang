@@ -7,6 +7,11 @@
   "devDependencies": {
     "finnlp": "^1.0.6"
   },
+  "scripts": {
+    "build":"tsc",
+    "prepublish": "ts-node test/test.ts && tsc",
+    "test": "ts-node test/test.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FinNLP/fin-slang.git"

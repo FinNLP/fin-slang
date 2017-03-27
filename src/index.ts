@@ -1,8 +1,9 @@
 import {rules} from "./list";
-
-export default function(string:string):string{
-	rules.forEach((rule)=>{
+import * as Fin from "finnlp";
+Fin.preProcessors.push(function(string:string){
+	for (var index = 0; index < rules.length; index++) {
+		var rule = rules[index];
 		string = string.replace(rule.regex,rule.replacement);
-	});
+	}
 	return string;
-}
+});

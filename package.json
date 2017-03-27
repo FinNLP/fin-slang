@@ -1,6 +1,6 @@
 {
   "name": "fin-slang",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transforms common internet slangs into a more formal words.",
   "main": "./dist/index.js",
   "types":"./dist/index.d.ts",

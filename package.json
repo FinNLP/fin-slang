@@ -3,12 +3,13 @@
   "version": "1.0.2",
   "description": "Transforms common internet slangs into a more formal words.",
   "main": "./dist/index.js",
-  "types":"./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "devDependencies": {
+    "@types/node": "^7.0.11",
     "finnlp": "^1.0.6"
   },
   "scripts": {
-    "build":"tsc",
+    "build": "tsc",
     "prepublish": "ts-node test/test.ts && tsc",
     "test": "ts-node test/test.ts"
   },

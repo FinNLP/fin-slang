@@ -1,3 +1,5 @@
+/// <reference path="../node_modules/@types/node/index.d.ts" />
+
 import {rules} from "./list";
 import * as Fin from "finnlp";
 Fin.preProcessors.push(function(string:string){
